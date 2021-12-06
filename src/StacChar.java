@@ -42,8 +42,7 @@ static class Solution {
             if (Character.isLetter(array[i])){
                 stacChar.addElement(array[i]);
             }else if(array[i] == '*'){
-                System.out.println(stacChar.readTop());
-                stacChar.deleteElement();
+                System.out.println(stacChar.deleteElement());
             }
         }
     }
