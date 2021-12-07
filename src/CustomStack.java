@@ -30,4 +30,14 @@ public class CustomStack {
     public boolean isFull() {
         return (top == mSize - 1);
     }
+
+    @Override
+    public String toString() {
+        StringBuilder s = new StringBuilder();
+        for (int i = 0; i<=top; i++){
+
+            s.append(stackArray[i]).append(" ");
+        }
+        return s.toString();
+    }
 }
