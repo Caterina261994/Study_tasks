@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public class Random {
+public class RandomCustom {
 
         public static int a = 41;
         public static int c = 11119;

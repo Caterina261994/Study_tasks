@@ -7,7 +7,7 @@ public class Shellsort {
         array[ind2] = tmp;
     }
     public static void main(String[] args) {
-        int[] array = {6, 8, 3, 123, 5, 4, 1, 2, 0, 9, 7};
+        int[] array = {1, 8, 3, 1, 8, 5, 0, 8};
         System.out.println(Arrays.toString(array));
         int gap = array.length / 2;
         while (gap >= 1) {

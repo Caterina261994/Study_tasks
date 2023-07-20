@@ -3,7 +3,7 @@ import java.util.Deque;
 
 public class Preficscount {
     public static void main(String[] args) {
-        String[] prefixStr = "* + 7 * * 4 6 + 8 9 5 ".split(" ");
+        String[] prefixStr = "+ * * 12 12 12 144 ".split(" ");
         Deque<Integer> stack = new ArrayDeque<>();
         for (int i = prefixStr.length - 1; i > -1; i--) {
             {

@@ -34,6 +34,11 @@ public class BinarySearch {
         v = scanner.nextInt();
         //= {1488,1578,1973,3665,4426,4548,5435,5446,633,6385,6455,6504,6937,6965,7104,7230,8340,8958,928,9364,9550,9645,9686};
         //int v = 5435;
-        System.out.println(binarySearch(array, v));
+        int g = binarySearch(array, v);
+        if(g==-1){
+            System.out.println("No this number in array");
+        }else {
+            System.out.println(g);
+        }
     }
 }
